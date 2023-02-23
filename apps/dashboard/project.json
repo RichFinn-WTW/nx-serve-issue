@@ -63,6 +63,9 @@
         },
         "development": {
           "browserTarget": "dashboard:build:development"
+        },
+        "customConfig": {
+          "browserTarget": "dashboard:build:development"
         }
       },
       "defaultConfiguration": "development",
