@@ -48,6 +48,14 @@
           "extractLicenses": false,
           "sourceMap": true,
           "namedChunks": true
+        },
+        "customConfig": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
         }
       },
       "defaultConfiguration": "production"
@@ -60,6 +68,9 @@
         },
         "development": {
           "browserTarget": "login:build:development"
+        },
+        "customConfig": {
+          "browserTarget": "dashboard:build:development"
         }
       },
       "defaultConfiguration": "development",
