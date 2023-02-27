@@ -119,6 +119,9 @@
         },
         "production": {
           "buildTarget": "login:build:production"
+        },
+        "customConfig": {
+          "buildTarget": "login:build:production"
         }
       }
     }
